@@ -5,7 +5,7 @@ public class Student {
 	private String sn;//学号
 	private String username;
 	private String password;
-	private int classID;
+	private int clazzId;
 	private String sex = "男";
 	private String mobile;
 	private String qq;
@@ -43,12 +43,12 @@ public class Student {
 		this.password = password;
 	}
 
-	public int getClassID() {
-		return classID;
+	public int getClazzId() {
+		return clazzId;
 	}
 
-	public void setClassID(int classID) {
-		this.classID = classID;
+	public void setClazzId(int clazzId) {
+		this.clazzId = clazzId;
 	}
 
 	public String getSex() {

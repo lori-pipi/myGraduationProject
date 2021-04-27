@@ -142,7 +142,7 @@ public class StudentController {
     public AjaxResult addStudent(@RequestParam("file") MultipartFile[] files,Student student) throws IOException {
 
         AjaxResult ajaxResult = new AjaxResult();
-        student.setSn(SnGenerateUtil.generateSn(student.getClassID()));
+        student.setSn(SnGenerateUtil.generateSn(student.getClazzId()));
 
         // 存放上传图片的文件夹
         File fileDir = UploadUtil.getImgDirFile();
