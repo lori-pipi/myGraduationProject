@@ -15,12 +15,7 @@ import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Classname SelectedCourseController
- * @Description 选课信息控制器
- * @Date 2019/6/30 10:39
- * @Created by WDD
- */
+
 @Controller
 @RequestMapping("/selectedCourse")
 public class SelectedCourseController {
@@ -48,8 +43,8 @@ public class SelectedCourseController {
     @ResponseBody
     public Object getClazzList(@RequestParam(value = "page", defaultValue = "1")Integer page,
                                @RequestParam(value = "rows", defaultValue = "100")Integer rows,
-                               @RequestParam(value = "teacherid", defaultValue = "0")String studentid,
-                               @RequestParam(value = "teacherid", defaultValue = "0")String courseid ,String from,HttpSession session){
+                               @RequestParam(value = "studentid", defaultValue = "0")String studentid,
+                               @RequestParam(value = "courseid", defaultValue = "0")String courseid ,String from,HttpSession session){
         Map<String,Object> paramMap = new HashMap();
         paramMap.put("pageno",page);
         paramMap.put("pagesize",rows);

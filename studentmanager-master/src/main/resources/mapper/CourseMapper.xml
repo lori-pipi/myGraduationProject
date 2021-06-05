@@ -5,6 +5,7 @@
     <resultMap type="com.wdd.studentmanager.domain.Course" id="CourseInfo">
         <result column="id" property="id"/>
         <result column="name" property="name"/>
+        <result column="price" property="price"/>
         <result column="teacher_id" property="teacherId"/>
         <result column="course_date" property="courseDate"/>
         <result column="selected_num" property="selectedNum"/>
@@ -32,8 +33,8 @@
     </select>
 
     <insert id="addCourse" parameterType="Course">
-        insert into s_course(name,teacher_id,course_date,max_num,info)
-        values(#{name},#{teacherId},#{courseDate},#{maxNum},#{info})
+        insert into s_course(name,teacher_id,price,course_date,max_num,info)
+        values(#{name},#{teacherId},#{price},#{courseDate},#{maxNum},#{info})
     </insert>
 
     <delete id="deleteCourse" parameterType="java.util.ArrayList">
@@ -47,7 +48,7 @@
     </delete>
 
     <update id="editCourse" parameterType="Course">
-        update s_course set name = #{name},teacher_id = #{teacherId},course_date = #{courseDate},max_num = #{maxNum},info = #{info} where id = #{id}
+        update s_course set name = #{name},price = #{price},teacher_id = #{teacherId},course_date = #{courseDate},max_num = #{maxNum},info = #{info} where id = #{id}
     </update>
 
     <update id="addStudentNum" parameterType="int">

@@ -32,7 +32,7 @@
                 [
                     {field:'chk',checkbox: true,width:50},
                     {field:'id',title:'ID',width:50, sortable: true},
-                    {field:'studentId',title:'学生',width:200,
+                    {field:'studentId',title:'学生',width:100,
                         formatter: function(value,row,index){
                             if (row.studentId){
                                 var studentList = $("#studentList").combobox("getData");
@@ -274,7 +274,7 @@
                 });
             }
 
-            var typeData = [{id:"上午",text:"上午"},{id:"下午",text:"下午"}];
+            var typeData = [{id:"准时签到",text:"准时签到"},{id:"迟到十五分钟以内",text:"迟到十五分钟以内"},{id:"超时违规签到",text:"超时违规签到"}];
             $("#add_typeList").combobox({
                 data:typeData,
                 valueField: 'id',

@@ -3,8 +3,7 @@ package com.wdd.studentmanager.domain;
 /**
  * @Classname SelectedCourse
  * @Description 选课信息实体类
- * @Date 2019/6/30 10:30
- * @Created by WDD
+
  */
 public class SelectedCourse {
     private Integer id;

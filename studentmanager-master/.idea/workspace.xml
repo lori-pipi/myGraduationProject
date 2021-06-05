@@ -6,8 +6,107 @@
   <component name="ChangeListManager">
     <list default="true" id="72e6fdb8-7ac0-479a-85a8-03834cf35847" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/config/SpringmvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/config/SpringmvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/AttendanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/AttendanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/ClazzController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/ClazzController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/LeaveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/LeaveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/ScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/ScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/SelectedCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/SelectedCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Attendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Attendance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Leave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Leave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/ScoreStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/ScoreStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/SelectedCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/SelectedCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/domain/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/AttendanceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/AttendanceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/ClazzMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/ClazzMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/CourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/GradeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/GradeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/LeaveMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/LeaveMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/ScoreMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/ScoreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/SelectedCourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/SelectedCourseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/StudenetMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/StudenetMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/mapper/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/AttendanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/AttendanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/ClazzService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/ClazzService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/AttendanceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/AttendanceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/ClazzServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/ClazzServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/LeaveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/LeaveServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/ScoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/ScoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/SelectedCourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/SelectedCourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/Impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/LeaveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/LeaveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/ScoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/ScoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/SelectedCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/SelectedCourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/DateFormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/DateFormatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/SnGenerateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/SnGenerateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/UploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wdd/studentmanager/util/UploadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/LeaveMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LeaveMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/attendance/attendanceList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/attendance/attendanceList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/clazz/clazzList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/clazz/clazzList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/course/courseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/course/courseList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/course/selectedCourseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/course/selectedCourseList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/leave/LeaveList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/leave/LeaveList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/score/scoreList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/score/scoreList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/student/studentList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/teacherList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/teacherList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/config/SpringmvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/config/SpringmvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/AttendanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/AttendanceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/ClazzController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/ClazzController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/LeaveController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/LeaveController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/ScoreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/ScoreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/SelectedCourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/SelectedCourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/SystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/SystemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/TeacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/controller/TeacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/domain/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/domain/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/domain/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/domain/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/AttendanceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/AttendanceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/ClazzServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/ClazzServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/LeaveServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/LeaveServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/ScoreServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/ScoreServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/SelectedCourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/SelectedCourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/TeacherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wdd/studentmanager/service/Impl/TeacherServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/LeaveMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/LeaveMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/attendance/attendanceList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/attendance/attendanceList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/clazz/clazzList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/clazz/clazzList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/course/courseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/course/courseList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/course/selectedCourseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/course/selectedCourseList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/leave/LeaveList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/leave/LeaveList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/score/scoreList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/score/scoreList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/student/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/student/studentList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/teacher/teacherList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/teacher/teacherList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +141,70 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="4421336DADFE5FDC90F13139B9750470" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/course/editCourse" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="4421336DADFE5FDC90F13139B9750470" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080/course/deleteCourse" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080/attendance/attendance_list" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StudentmanagerApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
     <configuration name="StudentmanagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="studentmanager" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wdd.studentmanager.StudentmanagerApplication" />
@@ -50,8 +212,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in generated-requests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
+    <option name="showDoc" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="72e6fdb8-7ac0-479a-85a8-03834cf35847" name="Default Changelist" comment="" />
@@ -67,6 +238,18 @@
       <workItem from="1621491306120" duration="1513000" />
       <workItem from="1621561720606" duration="10010000" />
       <workItem from="1621594656695" duration="7745000" />
+      <workItem from="1621928128342" duration="4939000" />
+      <workItem from="1621937452542" duration="7082000" />
+      <workItem from="1622003102231" duration="5043000" />
+      <workItem from="1622031748116" duration="3769000" />
+      <workItem from="1622079645410" duration="1979000" />
+      <workItem from="1622093150319" duration="4466000" />
+      <workItem from="1622459446508" duration="608000" />
+      <workItem from="1622521770031" duration="9826000" />
+      <workItem from="1622535188952" duration="84000" />
+      <workItem from="1622543024227" duration="7846000" />
+      <workItem from="1622694498892" duration="5014000" />
+      <workItem from="1622869375657" duration="1272000" />
     </task>
     <servers />
   </component>

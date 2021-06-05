@@ -3,8 +3,7 @@ package com.wdd.studentmanager.domain;
 /**
  * @Classname Teacher
  * @Description None
- * @Date 2019/6/28 18:55
- * @Created by WDD
+
  */
 public class Teacher {
     private int id;
@@ -14,7 +13,7 @@ public class Teacher {
     private int clazzId;
     private String sex = "男";
     private String mobile;
-    private String qq;
+    private String registerDate;
     private String photo;//头像
 
     public int getId() {
@@ -73,12 +72,12 @@ public class Teacher {
         this.mobile = mobile;
     }
 
-    public String getQq() {
-        return qq;
+    public String getRegisterDate() {
+        return registerDate;
     }
 
-    public void setQq(String qq) {
-        this.qq = qq;
+    public void setRegisterDate(String registerDate) {
+        this.registerDate = registerDate;
     }
 
     public String getPhoto() {

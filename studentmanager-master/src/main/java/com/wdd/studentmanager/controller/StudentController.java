@@ -19,8 +19,6 @@ import java.util.*;
 /**
  * @Classname StudentController
  * @Description None
- * @Date 2019/6/25 20:00
- * @Created by WDD
  */
 @Controller
 @RequestMapping("/student")

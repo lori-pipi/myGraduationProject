@@ -3,8 +3,7 @@ package com.wdd.studentmanager.domain;
 /**
  * @Classname Attendance
  * @Description 考勤实体类
- * @Date 2019/7/1 11:52
- * @Created by WDD
+
  */
 public class Attendance {
     private Integer id;

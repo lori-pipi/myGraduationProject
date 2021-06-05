@@ -13,8 +13,6 @@ import java.util.Map;
 /**
  * @Classname CourseServiceImpl
  * @Description None
- * @Date 2019/6/29 20:09
- * @Created by WDD
  */
 @Service
 public class CourseServiceImpl implements CourseService {

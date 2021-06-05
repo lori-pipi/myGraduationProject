@@ -15,7 +15,7 @@
         SELECT *
         from s_leave
         <where>
-            <if test="studentId!=null"> and student_id = #{studentId} </if>
+            <if test="studentid!=null"> and student_id = #{studentid} </if>
         </where>
         limit #{startIndex},#{pagesize}
     </select>

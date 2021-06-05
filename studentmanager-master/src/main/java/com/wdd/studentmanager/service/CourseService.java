@@ -9,8 +9,6 @@ import java.util.Map;
 /**
  * @Classname CourseService
  * @Description None
- * @Date 2019/6/29 20:09
- * @Created by WDD
  */
 public interface CourseService {
     PageBean<Course> queryPage(Map<String, Object> paramMap);

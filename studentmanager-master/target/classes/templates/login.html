@@ -40,6 +40,7 @@
         	$.ajax({
         		type: "post",
         		url: /*[[@{/system/login}]]*/,
+
         		data: $("#form").serialize(),
         		dataType: "json", //返回数据类型
         		success: function(data){

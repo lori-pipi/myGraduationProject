@@ -35,10 +35,10 @@
 					{field:'chk',checkbox: true,width:50},
 					{field:'id',title:'ID',width:50, sortable: true},
 					{field:'sn',title:'工号',width:150, sortable: true},
-					{field:'username',title:'姓名',width:150},
-					{field:'sex',title:'性别',width:100},
+					{field:'username',title:'姓名',width:100},
+					{field:'sex',title:'性别',width:50},
 					{field:'mobile',title:'电话',width:150},
-					{field:'qq',title:'QQ',width:150},
+					{field:'registerDate',title:'注册日期',width:150},
 					{field:'clazz_id',title:'班级',width:150,
 						formatter: function(value,row,index){
 							if (row.clazzId){
@@ -184,7 +184,7 @@
 											$("#add_name").textbox('setValue', "");
 											$("#add_sex").textbox('setValue', "男");
 											$("#add_phone").textbox('setValue', "");
-											$("#add_qq").textbox('setValue', "");
+											$("#add_register").textbox('setValue', "");
 											$(table).find(".chooseTr").remove();
 
 											//重新刷新页面数据
@@ -207,7 +207,7 @@
 							$("#add_number").textbox('setValue', "");
 							$("#add_name").textbox('setValue', "");
 							$("#add_phone").textbox('setValue', "");
-							$("#add_qq").textbox('setValue', "");
+							$("#add_register").textbox('setValue', "");
 
 							$(table).find(".chooseTr").remove();
 
@@ -218,7 +218,7 @@
 					$("#add_number").textbox('setValue', "");
 					$("#add_name").textbox('setValue', "");
 					$("#add_phone").textbox('setValue', "");
-					$("#add_qq").textbox('setValue', "");
+					$("#add_register").textbox('setValue', "");
 
 					$(table).find(".chooseTr").remove();
 				}
@@ -309,7 +309,7 @@
 											$("#edit_name").textbox('setValue', "");
 											$("#edit_sex").textbox('setValue', "男");
 											$("#edit_phone").textbox('setValue', "");
-											$("#edit_qq").textbox('setValue', "");
+											$("#edit_register").textbox('setValue', "");
 
 											//重新刷新页面数据
 											$('#dataList').datagrid("reload");
@@ -331,7 +331,7 @@
 						handler:function(){
 							$("#edit_name").textbox('setValue', "");
 							$("#edit_phone").textbox('setValue', "");
-							$("#edit_qq").textbox('setValue', "");
+							$("#edit_register").textbox('setValue', "");
 
 							$(table).find(".chooseTr").remove();
 
@@ -353,7 +353,7 @@
 							$("#edit_name").textbox('setValue', selectRow.username);
 							$("#edit_sex").textbox('setValue', selectRow.sex);
 							$("#edit_phone").textbox('setValue', selectRow.mobile);
-							$("#edit_qq").textbox('setValue', selectRow.qq);
+							$("#edit_register").textbox('setValue', selectRow.registerDate);
 
 							var div = document.createElement("div"),
 									img1 = document.createElement("img");
@@ -380,7 +380,7 @@
 				onClose: function(){
 					$("#edit_name").textbox('setValue', "");
 					$("#edit_phone").textbox('setValue', "");
-					$("#edit_qq").textbox('setValue', "");
+					$("#edit_register").textbox('setValue', "");
 				}
 			});
 
@@ -491,7 +491,7 @@
 	<form id="addForm" method="post" enctype="multipart/form-data">
 		<table id="addTable" border=0 style="width:800px; table-layout:fixed;" cellpadding="6" >
 			<tr>
-				<td style="width:40px">班级:</td>
+				<td style="width:80px">班级:</td>
 				<td colspan="3">
 					<input id="add_clazzList" style="width: 200px; height: 30px;" class="easyui-textbox" name="clazzId" />
 				</td>
@@ -514,8 +514,8 @@
 				<td colspan="4"><input id="add_phone" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="mobile" validType="mobile" /></td>
 			</tr>
 			<tr>
-				<td>QQ:</td>
-				<td colspan="4"><input id="add_qq" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="qq" validType="number" /></td>
+				<td>注册日期:</td>
+				<td colspan="4"><input id="add_register" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="registerDate" validType="number" /></td>
 			</tr>
 			<tr>
 				<td>相片:</td>
@@ -541,7 +541,7 @@
 	<form id="editForm" method="post" enctype="multipart/form-data">
 		<table id="editTable" border=0 style="width:800px; table-layout:fixed;" cellpadding="6" >
 			<tr>
-				<td style="width:40px">班级:</td>
+				<td style="width:80px">班级:</td>
 				<td colspan="3">
 					<input id="edit_clazzList" style="width: 200px; height: 30px;" class="easyui-textbox" name="clazzId" />
 				</td>
@@ -560,8 +560,8 @@
 				<td><input id="edit_phone" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="mobile" validType="mobile" /></td>
 			</tr>
 			<tr>
-				<td>QQ:</td>
-				<td colspan="4"><input id="edit_qq" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="qq" validType="number" /></td>
+				<td>注册日期:</td>
+				<td colspan="4"><input id="edit_register" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="registerDate" validType="number" /></td>
 			</tr>
 			<tr>
 				<td>相片:</td>

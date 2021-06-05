@@ -33,7 +33,7 @@
                     {field:'chk',checkbox: true,width:50},
                     {field:'id',title:'ID',width:50, sortable: true},
                     {field:'name',title:'课程名称',width:200},
-                    {field:'teacherId',title:'授课老师',width:200,
+                    {field:'teacherId',title:'授课老师',width:100,
                         formatter: function(value,row,index){
                             if (row.teacherId){
                                 var teacherList = $("#teacherList").combobox("getData");
@@ -46,9 +46,10 @@
                             }
                         }
                     },
+                    {field:'price',title:'课程价格',width:100},
                     {field:'courseDate',title:'上课时间',width:200},
-                    {field:'selectedNum',title:'已选人数',width:200},
-                    {field:'maxNum',title:'最大可选人数',width:200},
+                    {field:'selectedNum',title:'已选',width:50},
+                    {field:'maxNum',title:'容量',width:50},
                 ]
                 ],
                 toolbar: "#toolbar",
@@ -134,8 +135,9 @@
                                 var name = $("#edit_name").textbox("getText");
                                 var courseDate = $("#edit_course_date").textbox("getText");
                                 var maxNum = $("#edit_max_num").numberbox("getValue");
+                                var price = $("#edit_price").numberbox("getValue");
                                 var info = $("#edit_info").val();
-                                var data = {id:id, teacherId:teacherId, name:name,courseDate:courseDate,info:info,maxnum:maxNum};
+                                var data = {id:id, teacherId:teacherId,price:price, name:name,courseDate:courseDate,info:info,maxNum:maxNum};
 
                                 $.ajax({
                                     type: "post",
@@ -182,6 +184,7 @@
                     var selectRow = $("#dataList").datagrid("getSelected");
                     //设置值
                     $("#edit_name").textbox('setValue', selectRow.name);
+                    $("#edit_price").numberbox('setValue', selectRow.price);
                     $("#edit_course_date").textbox('setValue', selectRow.courseDate);
                     $("#edit_max_num").numberbox('setValue', selectRow.maxNum);
                     $("#edit_info").val(selectRow.info);
@@ -355,6 +358,10 @@
                 <td><input id="add_name" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="name" data-options="required:true, missingMessage:'不能为空'" /></td>
             </tr>
             <tr>
+                <td>课程价格:</td>
+                <td><input id="add_price" style="width: 200px; height: 30px;" class="easyui-numberbox" type="text" name="price" data-options="min:0,precision:0,required:true, missingMessage:'不能为空'" /></td>
+            </tr>
+            <tr>
                 <td style="width:40px">授课老师:</td>
                 <td colspan="3">
                     <input id="add_teacherList" style="width: 200px; height: 30px;" class="easyui-textbox" name="teacherId" />
@@ -402,6 +409,10 @@
             <tr>
                 <td>最多可选人数:</td>
                 <td><input id="edit_max_num" style="width: 200px; height: 30px;" class="easyui-numberbox" type="text" name="max_num" data-options="min:0,precision:0,required:true, missingMessage:'不能为空'" /></td>
+            </tr>
+            <tr>
+                <td>课程价格:</td>
+                <td><input id="edit_price" style="width: 200px; height: 30px;" class="easyui-numberbox" type="text" name="price" data-options="min:0,precision:0,required:true, missingMessage:'不能为空'" /></td>
             </tr>
             <tr>
                 <td>课程介绍:</td>

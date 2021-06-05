@@ -8,8 +8,6 @@ import java.util.Map;
 /**
  * @Classname ClazzMapper
  * @Description None
- * @Date 2019/6/24 20:09
- * @Created by WDD
  */
 public interface ClazzMapper {
     List<Clazz> queryList(Map<String, Object> paramMap);

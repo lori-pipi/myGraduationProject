@@ -22,8 +22,6 @@ import java.util.*;
 /**
  * @Classname AttendanceController
  * @Description None
- * @Date 2019/7/1 11:57
- * @Created by WDD
  */
 @Controller
 @RequestMapping("/attendance")

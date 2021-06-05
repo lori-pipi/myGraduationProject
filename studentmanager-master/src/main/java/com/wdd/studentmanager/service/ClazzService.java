@@ -9,8 +9,6 @@ import java.util.Map;
 /**
  * @Classname ClazzService
  * @Description None
- * @Date 2019/6/26 10:14
- * @Created by WDD
  */
 public interface ClazzService {
     PageBean<Clazz> queryPage(Map<String, Object> paramMap);

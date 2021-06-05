@@ -3,13 +3,13 @@ package com.wdd.studentmanager.domain;
 /**
  * @Classname Course
  * @Description None
- * @Date 2019/6/29 20:06
- * @Created by WDD
+
  */
 public class Course {
     private int id;
     private String name;
     private int teacherId;
+    private int price=5;
     private String courseDate;
     private int selectedNum = 0;//已选人数
     private int maxNum = 50;//课程最大选课人数
@@ -21,6 +21,14 @@ public class Course {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public String getName() {

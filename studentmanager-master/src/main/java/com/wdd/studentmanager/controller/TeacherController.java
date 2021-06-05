@@ -22,8 +22,6 @@ import java.util.UUID;
 /**
  * @Classname TeacherController
  * @Description None
- * @Date 2019/6/28 18:49
- * @Created by WDD
  */
 @Controller
 @RequestMapping("/teacher")

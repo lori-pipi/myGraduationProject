@@ -1,0 +1,18 @@
+POST http://localhost:8080/course/editCourse
+
+<> 2021-05-25T201349-2.200.html
+
+###
+
+POST http://localhost:8080/course/deleteCourse
+
+<> 2021-05-25T201349-1.200.html
+
+###
+
+GET http://localhost:8080/attendance/attendance_list
+
+<> 2021-05-25T201349.200.html
+
+###
+

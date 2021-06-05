@@ -33,10 +33,10 @@
 					{field:'chk',checkbox: true,width:50},
 					{field:'id',title:'ID',width:50, sortable: true},
 					{field:'sn',title:'学号',width:200, sortable: true},
-					{field:'username',title:'姓名',width:200},
-					{field:'sex',title:'性别',width:100},
+					{field:'username',title:'姓名',width:100},
+					{field:'sex',title:'性别',width:50},
 					{field:'mobile',title:'电话',width:150},
-					{field:'qq',title:'QQ',width:150},
+					{field:'registerDate',title:'注册日期',width:150},
 					{field:'clazz_id',title:'班级',width:150,
 						formatter: function(value,row,index){
 							if (row.clazzId){
@@ -230,7 +230,7 @@
 											$("#add_name").textbox('setValue', "");
 											$("#add_sex").textbox('setValue', "男");
 											$("#add_phone").textbox('setValue', "");
-											$("#add_qq").textbox('setValue', "");
+											$("#add_register").textbox('setValue', "");
 
 											//重新刷新页面数据
 											$('#dataList').datagrid("options").queryParams = {clazzid: clazzid};
@@ -256,7 +256,7 @@
 							$("#add_number").textbox('setValue', "");
 							$("#add_name").textbox('setValue', "");
 							$("#add_phone").textbox('setValue', "");
-							$("#add_qq").textbox('setValue', "");
+							$("#add_register").textbox('setValue', "");
 							//重新加载年级
 							$("#add_gradeList").combobox("clear");
 							$("#add_gradeList").combobox("reload");
@@ -331,7 +331,7 @@
 							$("#edit_name").textbox('setValue', "");
 							$("#edit_sex").textbox('setValue', "男");
 							$("#edit_phone").textbox('setValue', "");
-							$("#edit_qq").textbox('setValue', "");
+							$("#edit_register").textbox('setValue', "");
 							$("#edit_gradeList").combobox("clear");
 							$("#edit_gradeList").combobox("reload");
 						}
@@ -351,7 +351,7 @@
 							$("#edit_name").textbox('setValue', selectRow.username);
 							$("#edit_sex").textbox('setValue', selectRow.sex);
 							$("#edit_mobile").textbox('setValue', selectRow.mobile);
-							$("#edit_qq").textbox('setValue', selectRow.qq);
+							$("#edit_register").textbox('setValue', selectRow.registerDate);
 
 							var div = document.createElement("div"),
 									img1 = document.createElement("img");
@@ -510,8 +510,8 @@
 				<td><input id="add_phone" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="mobile" validType="mobile" /></td>
 			</tr>
 			<tr>
-				<td>QQ:</td>
-				<td><input id="add_qq" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="qq" validType="number" /></td>
+				<td>注册日期:</td>
+				<td><input id="add_register" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="registerDate" validType="registerDate" /></td>
 			</tr>
 			<tr>
 				<td>班级:</td>
@@ -553,8 +553,8 @@
 				<td><input id="edit_mobile" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="mobile" validType="mobile" /></td>
 			</tr>
 			<tr>
-				<td>QQ:</td>
-				<td><input id="edit_qq" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="qq" validType="number" /></td>
+				<td>注册日期:</td>
+				<td><input id="edit_register" style="width: 200px; height: 30px;" class="easyui-textbox" type="text" name="registerDate" validType="registerDate"  /></td>
 			</tr>
 			<tr>
 				<td>班级:</td>

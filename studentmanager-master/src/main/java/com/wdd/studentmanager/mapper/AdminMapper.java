@@ -6,8 +6,6 @@ import org.springframework.stereotype.Repository;
 /**
  * @Classname UserMapper
  * @Description None
- * @Date 2019/6/24 20:09
- * @Created by WDD
  */
 @Repository
 public interface AdminMapper {

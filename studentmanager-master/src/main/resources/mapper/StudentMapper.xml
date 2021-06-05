@@ -10,7 +10,7 @@
         <result column="clazz_id" property="clazzId"/>
         <result column="sex" property="sex"/>
         <result column="mobile" property="mobile"/>
-        <result column="qq" property="qq"/>
+        <result column="register_date" property="registerDate"/>
         <result column="photo" property="photo"/>
     </resultMap>
 
@@ -36,8 +36,8 @@
     </select>
 
     <insert id="addStudent" parameterType="Student">
-        insert into s_student(sn,username,password,clazz_id,sex,mobile,qq,photo)
-        values(#{sn},#{username},#{password},#{clazzId},#{sex},#{mobile},#{qq},#{photo})
+        insert into s_student(sn,username,password,clazz_id,sex,mobile,register_date,photo)
+        values(#{sn},#{username},#{password},#{clazzId},#{sex},#{mobile},#{registerDate},#{photo})
     </insert>
 
     <delete id="deleteStudent" parameterType="java.util.ArrayList">
@@ -65,8 +65,8 @@
             <if test="mobile != null">
                 mobile = #{mobile},
             </if>
-            <if test="qq != null">
-                qq = #{qq},
+            <if test="registerDate != null">
+                register_date= #{registerDate},
             </if>
             <if test="photo != null">
                 photo = #{photo},

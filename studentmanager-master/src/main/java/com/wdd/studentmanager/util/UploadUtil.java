@@ -5,8 +5,6 @@ import java.io.File;
 /**
  * @Classname UploadUtil
  * @Description None
- * @Date 2019/6/27 20:06
- * @Created by WDD
  */
 public class UploadUtil {
     // 项目根路径下的目录  -- SpringBoot static 目录相当于是根路径下（SpringBoot 默认）

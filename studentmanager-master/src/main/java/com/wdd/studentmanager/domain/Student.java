@@ -8,7 +8,7 @@ public class Student {
 	private int clazzId;
 	private String sex = "男";
 	private String mobile;
-	private String qq;
+	private String registerDate;
 	private String photo;//头像
 
 	public int getId() {
@@ -67,12 +67,12 @@ public class Student {
 		this.mobile = mobile;
 	}
 
-	public String getQq() {
-		return qq;
+	public String getRegisterDate() {
+		return registerDate;
 	}
 
-	public void setQq(String qq) {
-		this.qq = qq;
+	public void setRegisterDate(String registerDate) {
+		this.registerDate = registerDate;
 	}
 
 	public String getPhoto() {

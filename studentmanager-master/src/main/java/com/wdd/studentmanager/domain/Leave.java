@@ -3,8 +3,7 @@ package com.wdd.studentmanager.domain;
 /**
  * @Classname Leave
  * @Description 请假表实体类
- * @Date 2019/7/2 13:57
- * @Created by WDD
+
  */
 public class Leave {
     public static int LEAVE_STATUS_WAIT = 0;//等待审核
